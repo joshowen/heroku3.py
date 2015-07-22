@@ -2,3 +2,9 @@ venv
 build/
 dist/
 heroku.egg-info/
+
+.project
+
+.pydevproject
+
+.settings/org.eclipse.core.resources.prefs

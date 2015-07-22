@@ -7,7 +7,7 @@ import sys
 try:
     from setuptools import setup
 except ImportError:
-    from distutils.core import setup # NOQA
+    from distutils.core import setup  # NOQA
 
 
 if sys.argv[-1] == 'publish':
@@ -16,8 +16,8 @@ if sys.argv[-1] == 'publish':
 
 required = [
     'requests>=1.2.3',
-    'simplejson==3.3.1',
-    'python-dateutil==1.5'
+    'simplejson>=3.3.1',
+    'python-dateutil>=1.5'
 ]
 
 
